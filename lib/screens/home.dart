@@ -23,7 +23,7 @@ class HomeScreen extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children:  [
                 Center(child: Text("Clicks: ${counterController.counter.value}")),
-                SizedBox(
+                const SizedBox(
                   height: 10,
                 ),
 
@@ -38,6 +38,11 @@ class HomeScreen extends StatelessWidget {
           floatingActionButton: FloatingActionButton(onPressed: (){ counterController.increment();},
             child: Icon(Icons.add),),
         )
+
+
     );
+
+
+
   }
 }

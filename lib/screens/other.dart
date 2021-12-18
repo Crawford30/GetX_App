@@ -27,6 +27,8 @@ class OtherScreen extends StatelessWidget {
           )
         ],
       ),
+
+
     );
   }
 }
